@@ -14,14 +14,15 @@ public class AdjacencyList {
     private LinkedList<Integer> adjLists[];
 
     public static void main(String args[]) {
-        AdjacencyList graph = new AdjacencyList(4);
+        int vertices = 4;
+        AdjacencyList graph = new AdjacencyList(vertices);
         graph.addEdge(1, 2);
         graph.addEdge(2, 2);
         graph.addEdge(3, 2);
-        graph.addEdge(4, 2);
+        graph.addEdge(0, 3);
     }
 
-    public void addEdge(int u, int v) {
+    private void addEdge(int u, int v) {
         this.adjLists[u].add(v);
     }
 
@@ -30,7 +31,7 @@ public class AdjacencyList {
         numVertices = vertices;
         adjLists = new LinkedList[vertices];
 
-        for (int i = 0; i < vertices; i++)
-            adjLists[i] = new LinkedList();
+        for (int i = 0; i < numVertices; i++)
+            adjLists[i] = new LinkedList<>();
     }
 }

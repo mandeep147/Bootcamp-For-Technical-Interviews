@@ -3,7 +3,6 @@
  */
 package com.chapter15.graphs;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 import static com.utils.Utils.*;
@@ -25,7 +24,9 @@ public class DFSTraversal {
     }
 
     public static void main(String args[]) {
-        DFSTraversal dfsTraversal = new DFSTraversal(4);
+        int vertices = 4;
+        int source = 2;
+        DFSTraversal dfsTraversal = new DFSTraversal(vertices);
 
         addEdge(0, 1, adjacencyList);
         addEdge(0, 2, adjacencyList);
@@ -35,28 +36,25 @@ public class DFSTraversal {
         addEdge(3, 3, adjacencyList);
 
         printInput("DFS Traversal traversal: ");
-        dfsTraversal.dfsTraversal(2);
+        dfsTraversal.dfsTraversal(source);
 
     }
 
     /**
      * Complexity: O(V+E)
-     * @param source
+     * @param source int value
      */
-    public void dfsTraversal(int source) {
+    private void dfsTraversal(int source) {
         boolean[] visited = new boolean[numberOfVertices];
         helper(source, visited);
     }
 
-    public void helper(int v, boolean[] visited) {
+    private void helper(int v, boolean[] visited) {
         visited[v] = true;
         printSameLine(v +" ");
 
-        Iterator<Integer> adjVertex = adjacencyList[v].listIterator();
-
-        while(adjVertex.hasNext()) {
-            int n = adjVertex.next();
-            if(!visited[n]){
+        for (Integer n : adjacencyList[v]) {
+            if (!visited[n]) {
                 helper(n, visited);
             }
         }

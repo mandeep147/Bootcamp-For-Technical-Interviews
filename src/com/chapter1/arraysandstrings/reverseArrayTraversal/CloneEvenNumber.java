@@ -16,7 +16,7 @@ public class CloneEvenNumber {
         printArray(reversedArr);
     }
 
-    public static Integer[] cloneEvenNumbers(Integer[] arr){
+    private static Integer[] cloneEvenNumbers(Integer[] arr){
         if(arr == null || arr.length == 0)
             return arr;
         int end = arr.length, i = getLastNumber(arr);

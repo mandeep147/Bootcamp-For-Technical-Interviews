@@ -3,7 +3,6 @@
  */
 package com.chapter15.graphs;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 import static com.utils.Utils.*;
@@ -25,7 +24,9 @@ public class BFSTraversal {
     }
 
     public static void main(String args[]) {
-        BFSTraversal bfsTraversal = new BFSTraversal(4);
+        int vertices = 4;
+        int source = 2;
+        BFSTraversal bfsTraversal = new BFSTraversal(vertices);
 
         addEdge(0, 1, adjacencyList);
         addEdge(0, 2, adjacencyList);
@@ -35,15 +36,15 @@ public class BFSTraversal {
         addEdge(3, 3, adjacencyList);
 
         printInput("BFS Traversal traversal from vertex 2: ");
-        bfsTraversal.bfsTraversal(2);
+        bfsTraversal.bfsTraversal(source);
     }
 
     /**
      * Complexity: O(V+E)
      *
-     * @param source
+     * @param source int value
      */
-    public void bfsTraversal(int source) {
+    private void bfsTraversal(int source) {
         boolean[] visited = new boolean[this.numberOfVertices];
         LinkedList<Integer> queue = new LinkedList<>();
         visited[source] = true; //mark source visited
@@ -53,10 +54,7 @@ public class BFSTraversal {
             source = queue.poll();
             printSameLine(source + " ");
 
-            Iterator<Integer> adjVertex = adjacencyList[source].listIterator();
-
-            while (adjVertex.hasNext()) {
-                int n = adjVertex.next();
+            for (Integer n : adjacencyList[source]) {
                 if (!visited[n]) {
                     visited[n] = true;
                     queue.add(n);
