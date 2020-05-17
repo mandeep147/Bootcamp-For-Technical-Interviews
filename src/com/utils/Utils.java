@@ -35,4 +35,8 @@ public class Utils {
     public static void addEdge(int v, int w, LinkedList<Integer> adj[]){
         adj[v].add(w);
     }
+    
+    public static boolean checkIfArrayIsNull(Integer[] arr) {
+        return arr == null || arr.length == 0;
+    }
 }
