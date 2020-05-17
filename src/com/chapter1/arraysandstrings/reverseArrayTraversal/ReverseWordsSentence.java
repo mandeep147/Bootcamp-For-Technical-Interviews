@@ -23,6 +23,7 @@ public class ReverseWordsSentence {
         return reversedString.toString().trim();
     }
 
+    // if split method is not allowed
     private static String reverseString(String inputString){
         StringBuilder reversedString = new StringBuilder();
         int currentWordAtIndex = inputString.length();
