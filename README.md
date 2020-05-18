@@ -1,3 +1,5 @@
-# InterviewCamp-Practice
+# 4-week technical interview bootcamp
 
-Practice solution from interviewcamp 4 week bootcamp
+Solution and Techniques to selected technical interview questions
+
+To-be-added: System Design Notes
