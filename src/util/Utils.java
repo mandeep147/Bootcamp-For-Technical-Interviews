@@ -39,4 +39,8 @@ public class Utils {
     public static boolean checkIfArrayIsNull(Integer[] arr) {
         return arr == null || arr.length == 0;
     }
+    
+    public static int returnMid(int start, int end) {
+        return start + (end - start / 2);
+    }
 }
