@@ -56,4 +56,9 @@ public class Utils {
         stack.push(51);
         return stack;
     }
+    
+    public static class EmptyQueueException extends Exception {
+        public EmptyQueueException() {
+        }
+    }
 }
