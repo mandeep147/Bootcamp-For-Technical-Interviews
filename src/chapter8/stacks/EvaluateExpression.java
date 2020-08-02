@@ -30,11 +30,18 @@ public class EvaluateExpression {
         printInput(evaluateExpression(new char[]{'1'}));
     }
     
+    /**
+     * Time: O(n)
+     * Space: O(n)
+     *
+     * @param expression
+     * @return
+     */
     private static int evaluateExpression(char[] expression) {
         if (expression == null || expression.length == 0) {
             return 0;
         }
-    
+        
         Stack<Integer> operand = new Stack<>();
         Stack<Character> operator = new Stack<>();
         
