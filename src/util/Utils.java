@@ -61,4 +61,14 @@ public class Utils {
         public EmptyQueueException() {
         }
     }
+    
+    public static class StackFullException extends Exception {
+        public StackFullException() {
+        }
+    }
+    
+    public static class StackEmptyException extends Exception {
+        public StackEmptyException() {
+        }
+    }
 }
