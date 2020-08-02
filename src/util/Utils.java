@@ -2,6 +2,7 @@ package util;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 public class Utils {
     public static <T> void printArray(T[]  arr) {
@@ -42,5 +43,17 @@ public class Utils {
     
     public static int returnMid(int start, int end) {
         return start + (end - start / 2);
+    }
+    
+    public static Stack<Integer> createStack() {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(10);
+        stack.push(11);
+        stack.push(12);
+        stack.push(2);
+        stack.push(31);
+        stack.push(51);
+        return stack;
     }
 }
