@@ -65,3 +65,9 @@ Topic: Graphs
 |[DFS Traversal using Matrix](src/chapter15/graphs/DFSTraversalMatrix.java) |  
 |[Word Ladder](src/chapter15/graphs/WordLadderProblem.java) |  
 |[If X esists using BFS](src/chapter15/graphs/FindXExistsBFS.java) |  
+
+Topic: Recursion   
+
+| Problem |    
+| --- |    
+| [Nth Fibonacci](src/chapter6/recursionandbacktracking/NthFibonacci.java) |
