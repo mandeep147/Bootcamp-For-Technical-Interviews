@@ -39,6 +39,8 @@ Topic: Binary Search
 | [First Duplicate Element](src/chapter5/binarysearch/FirstDuplicateElement.java)|  
 | [Insert in order](src/chapter5/binarysearch/InsertInOrder.java) |  
 | [Search Target Item](src/chapter5/binarysearch/SearchtargetItem.java) |  
+| [Find smallest in rotates array](src/chapter5/binarysearch/FindSmallestInRotatedArray.java) |
+| [Find target with unknown length](src/chapter5/binarysearch/FindTargetWithUnknownLength.java) |
  
 Topic: Stacks
 
