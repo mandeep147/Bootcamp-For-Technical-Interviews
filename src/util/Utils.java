@@ -5,20 +5,27 @@ import java.util.List;
 import java.util.Stack;
 
 public class Utils {
-    public static <T> void printArray(T[]  arr) {
-        for(T element : arr){
-            System.out.print(element+" ");
+    public static <T> void printArray(T[] arr) {
+        for (T element : arr) {
+            System.out.print(element + " ");
         }
         System.out.println();
     }
-
+    
+    public static <T> void printArrayToIndex(T[] arr, int index) {
+        for (int i = 0; i < index; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+    
     public static <T> void printList(List<T> arr) {
-        for(T element : arr){
-            System.out.print(element+" ");
+        for (T element : arr) {
+            System.out.print(element + " ");
         }
         System.out.println();
     }
-
+    
     public static <T> void printInput(T inputString) {
         System.out.println(inputString);
     }

@@ -41,6 +41,7 @@ Topic: Binary Search
 | [Search Target Item](src/chapter5/binarysearch/SearchtargetItem.java) |  
 | [Find smallest in rotates array](src/chapter5/binarysearch/FindSmallestInRotatedArray.java) |
 | [Find target with unknown length](src/chapter5/binarysearch/FindTargetWithUnknownLength.java) |
+| [Square Root](src/chapter5/binarysearch/SquareRoot.java) |
  
 Topic: Stacks
 
@@ -66,8 +67,13 @@ Topic: Graphs
 |[Word Ladder](src/chapter15/graphs/WordLadderProblem.java) |  
 |[If X esists using BFS](src/chapter15/graphs/FindXExistsBFS.java) |  
 
-Topic: Recursion   
+Topic: Recursion And Backtracking
 
 | Problem |    
 | --- |    
 | [Nth Fibonacci](src/chapter6/recursionandbacktracking/NthFibonacci.java) |
+| [All Subsets in an Array](src/chapter6/recursionandbacktracking/AllSubsetsOfAnArray.java) |
+| [Coin Change Problem](src/chapter6/recursionandbacktracking/CoinChange.java) |
+| [Combination of given length](src/chapter6/recursionandbacktracking/CombinationLength.java) |
+| [All permutations of length X](src/chapter6/recursionandbacktracking/PermutationsLengthX.java) |
+| [Phone Number Mnemonic](src/chapter6/recursionandbacktracking/PhoneNumberMnemonic.java) |
