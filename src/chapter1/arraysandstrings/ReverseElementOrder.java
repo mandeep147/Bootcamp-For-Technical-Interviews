@@ -1,4 +1,4 @@
-package chapter1.arraysandstrings.traverseFromBothEnds;
+package chapter1.arraysandstrings;
 
 import util.Utils;
 

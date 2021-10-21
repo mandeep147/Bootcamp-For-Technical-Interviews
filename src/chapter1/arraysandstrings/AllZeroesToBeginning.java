@@ -5,7 +5,7 @@
  * For example,
  * a = [4,2,0,1,0,3,0] -> [0,0,0,4,1,2,3]
  */
-package chapter1.arraysandstrings.partitioningarrays;
+package chapter1.arraysandstrings;
 
 import static util.Utils.printArray;
 import static util.Utils.swap;

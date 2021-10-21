@@ -1,4 +1,4 @@
-package chapter1.arraysandstrings.reverseArrayTraversal;
+package chapter1.arraysandstrings;
 
 
 import static util.Utils.checkIfArrayIsNull;

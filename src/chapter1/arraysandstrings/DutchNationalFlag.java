@@ -7,7 +7,7 @@
  * For example,
  * a = [5,2,4,4,6,4,4,3] and pivot = 4 --> result = [3,2,4,4,4,4,5,6].
  */
-package chapter1.arraysandstrings.partitioningarrays;
+package chapter1.arraysandstrings;
 
 import static util.Utils.*;
 

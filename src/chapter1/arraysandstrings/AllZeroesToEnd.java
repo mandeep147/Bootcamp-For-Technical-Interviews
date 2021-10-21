@@ -2,7 +2,7 @@
  * AllZeroesToEnd
  * Given an array of integers, rearrange the elements such that all zeros are moved to the end of the array.
  */
-package chapter1.arraysandstrings.partitioningarrays;
+package chapter1.arraysandstrings;
 
 import static util.Utils.printArray;
 import static util.Utils.swap;

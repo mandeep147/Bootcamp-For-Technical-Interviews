@@ -10,16 +10,16 @@ Topic: Arrays and Strings
     
 | Problem |       
 |---|         
-| [Move all zeroes to beginning](src/chapter1/arraysandstrings/partitioningarrays/AllZeroesToBeginning.java)|    
-| [Move all zeroes to end](src/chapter1/arraysandstrings/partitioningarrays/AllZeroesToEnd.java)|    
-| [Dutch National Flag](src/chapter1/arraysandstrings/partitioningarrays/DutchNationalFlag.java)|   
-| [Red, White and Blue Marbles](src/chapter1/arraysandstrings/partitioningarrays/RedWhiteAndBlue.java)|   
-| [Clone Even Number](src/chapter1/arraysandstrings/reverseArrayTraversal/CloneEvenNumber.java)|    
-| [Reverse words in a sentence](src/chapter1/arraysandstrings/reverseArrayTraversal/ReverseWordsSentence.java)|   
-| [Reverse Element order](src/chapter1/arraysandstrings/traverseFromBothEnds/ReverseElementOrder.java)|   
-| [Shortest unsorted sub array](src/chapter1/arraysandstrings/traverseFromBothEnds/ShortestUnsortedSubarray.java)|  
-| [Squares of Each Number](src/chapter1/arraysandstrings/traverseFromBothEnds/SquaresOfEachNumber.java)|  
-| [Two Sum](src/chapter1/arraysandstrings/traverseFromBothEnds/TwoSum.java)|
+| [Move all zeroes to beginning](src/chapter1/arraysandstrings/AllZeroesToBeginning.java)|    
+| [Move all zeroes to end](src/chapter1/arraysandstrings/AllZeroesToEnd.java)|    
+| [Dutch National Flag](src/chapter1/arraysandstrings/DutchNationalFlag.java)|   
+| [Red, White and Blue Marbles](src/chapter1/arraysandstrings/RedWhiteAndBlue.java)|   
+| [Clone Even Number](src/chapter1/arraysandstrings/CloneEvenNumber.java)|    
+| [Reverse words in a sentence](src/chapter1/arraysandstrings/ReverseWordsSentence.java)|   
+| [Reverse Element order](src/chapter1/arraysandstrings/ReverseElementOrder.java)|   
+| [Shortest unsorted sub array](src/chapter1/arraysandstrings/ShortestUnsortedSubarray.java)|  
+| [Squares of Each Number](src/chapter1/arraysandstrings/SquaresOfEachNumber.java)|  
+| [Two Sum](src/chapter1/arraysandstrings/TwoSum.java)|
 
 Topic: Subarray Problems
     

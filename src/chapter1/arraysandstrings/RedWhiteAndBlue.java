@@ -14,7 +14,7 @@
  * A = [1,0,1,2,1,0,1,2],
  * Output = [0,0,1,1,1,1,2,2].
  */
-package chapter1.arraysandstrings.partitioningarrays;
+package chapter1.arraysandstrings;
 
 import static util.Utils.*;
 

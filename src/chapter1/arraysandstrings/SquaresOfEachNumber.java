@@ -4,7 +4,7 @@
  * For example:[-4,-2,-1,0,3,5] -> [0,1,4,9,16,25]
  * How can you do it in O(n) time?
  */
-package chapter1.arraysandstrings.traverseFromBothEnds;
+package chapter1.arraysandstrings;
 
 import static util.Utils.checkIfArrayIsNull;
 import static util.Utils.printArray;
