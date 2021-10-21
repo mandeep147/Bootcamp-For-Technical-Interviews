@@ -29,18 +29,27 @@ public class Utils {
     public static <T> void printInput(T inputString) {
         System.out.println(inputString);
     }
-
+    
     public static <T> void printSameLine(T input) {
         System.out.print(input);
     }
-
+    
+    public static <T> void print2DMatrix(T[][] input) {
+        for (T[] ts : input) {
+            for (T t : ts) {
+                printSameLine(t + " ");
+            }
+            printInput("");
+        }
+    }
+    
     public static void swap(Integer[] arr, int start, int end) {
         int temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
     }
-
-    public static void addEdge(int v, int w, LinkedList<Integer> adj[]){
+    
+    public static void addEdge(int v, int w, LinkedList<Integer> adj[]) {
         adj[v].add(w);
     }
     
