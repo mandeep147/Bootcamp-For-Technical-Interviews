@@ -58,7 +58,7 @@ public class Utils {
     }
     
     public static int returnMid(int start, int end) {
-        return start + (end - start / 2);
+        return start + (end - start) / 2;
     }
     
     public static Stack<Integer> createStack() {
