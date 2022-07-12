@@ -56,7 +56,7 @@ public class IsPallindrome {
         Node fast = head, slow = head;
         while (fast.next != null) {
             fast = fast.next;
-            if (fast.next != null) {
+            if (fast.next == null) {
                 break;
             }
             slow = slow.next;

@@ -11,6 +11,7 @@ public class ReverseWordsSentence {
         String str = "i live in a house";
         printInput(reverseWords(str));
         printInput(reverseString(str));
+        printInput(reverseWordsInString(str));
     }
 
     private static String reverseWords(String str) {
@@ -38,12 +39,47 @@ public class ReverseWordsSentence {
         String firstWord = inputString.substring(0, currentWordAtIndex);
         return appendWord(reversedString, firstWord).toString();
     }
-
-    private static StringBuilder appendWord(StringBuilder reversedString, String wordToAppend){
-        if(reversedString.length() > 0){
+    
+    private static StringBuilder appendWord(StringBuilder reversedString, String wordToAppend) {
+        if (reversedString.length() > 0) {
             reversedString.append(' ');
         }
         reversedString.append(wordToAppend);
         return reversedString;
+    }
+    
+    // Method - 3
+    private static String reverseWordsInString(String input) {
+        if (input == null || input.length() == 0) {
+            return input;
+        }
+        
+        return new String(reverseWords(input.toCharArray()));
+    }
+    
+    private static char[] reverseWords(char[] input) {
+        if (input == null || input.length == 0) {
+            return input;
+        }
+        reverseCharacters(input, 0, input.length - 1);
+        int wordStart = 0;
+        for (int i = 0; i < input.length - 1; i++) {
+            if (input[i + 1] == ' ') {
+                reverseCharacters(input, wordStart, i);
+                wordStart = i + 2;
+            }
+        }
+        reverseCharacters(input, wordStart, input.length - 1);
+        return input;
+    }
+    
+    private static void reverseCharacters(char[] input, int start, int end) {
+        while (start < end) {
+            char temp = input[start];
+            input[start] = input[end];
+            input[end] = temp;
+            start++;
+            end--;
+        }
     }
 }

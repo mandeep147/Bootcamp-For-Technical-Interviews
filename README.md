@@ -82,4 +82,10 @@ Topic: LinkedList
 
 |Problem |
 | --- |
-| [Is cycle exist in LinkedList](src/linkedlists/IsCycle.java) |
+| [Is cycle exist in LinkedList](src/linkedlists/IsCycle.java) |    
+
+Topic: Queue
+
+|Problem |
+| --- |
+| [Queue using an array](src/queue/QueueUsingArray.java) |

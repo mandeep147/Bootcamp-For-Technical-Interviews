@@ -43,8 +43,8 @@ public class Utils {
         }
     }
     
-    public static void swap(Integer[] arr, int start, int end) {
-        int temp = arr[start];
+    public static <T> void swap(T[] arr, int start, int end) {
+        T temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
     }
@@ -53,7 +53,7 @@ public class Utils {
         adj[v].add(w);
     }
     
-    public static boolean checkIfArrayIsNull(Integer[] arr) {
+    public static <T> boolean checkIfArrayIsNull(T[] arr) {
         return arr == null || arr.length == 0;
     }
     
@@ -76,6 +76,10 @@ public class Utils {
     public static class EmptyQueueException extends Exception {
         public EmptyQueueException() {
         }
+    }
+    
+    public static class FullQueueException extends Exception {
+        public FullQueueException(){}
     }
     
     public static class StackFullException extends Exception {
